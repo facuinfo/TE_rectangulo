@@ -15,7 +15,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Area dek rectangulo</h1>
+        <h1>Area del rectangulo</h1>
+        <p>Altura :<%= miobj.getAltura() %></p>
+        <p>Base :<%= miobj.getBase() %></p>
         <p>El area del rectangulo es:<%= miobj.getArea() %></p>
         <a href="index.jsp">Volver</a>
     </body>

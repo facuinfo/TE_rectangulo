@@ -4,6 +4,9 @@ public class Rectangulo {
     private int base;
     private int altura;
     
+    public Rectangulo(){
+        
+    }
     public int getBase(){
         return base;
     }
@@ -16,6 +19,7 @@ public class Rectangulo {
     public void setAltura(int altura){
         this.altura= altura;
     }
+    //metodo propio para calcular el area
     public int getArea(){
         return base*altura;
     }

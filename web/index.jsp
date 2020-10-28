@@ -19,7 +19,7 @@
                 </tr>
                 <tr>
                    <td></td>
-                    <td><input type="submit" alue="Procesar" ></td> 
+                    <td><input type="submit" value="Procesar" ></td> 
                 </tr>
             </table>
         </form>
